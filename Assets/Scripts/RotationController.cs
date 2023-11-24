@@ -1,10 +1,11 @@
 using UnityEngine;
 
-public class RotationController : MonoBehaviour
-{
     /// <summary>
     /// Ограничения по вращению персонажа вверх/вниз
     /// </summary>
+public class RotationController : MonoBehaviour
+{
+
     [SerializeField]
     private float _minY = -60;
     [SerializeField]

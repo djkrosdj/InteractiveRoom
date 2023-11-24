@@ -679,6 +679,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Weights
       objectReference: {fileID: 0}
+    - target: {fileID: 158196, guid: 91425614393ed2e4c88f15e6c0b8b375, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
+      objectReference: {fileID: 0}
     - target: {fileID: 416012, guid: 91425614393ed2e4c88f15e6c0b8b375, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -4879,6 +4883,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shoes
       objectReference: {fileID: 0}
+    - target: {fileID: 120708, guid: e103469d8ea00fc4f91d69e2af3b25bd, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 143496, guid: e103469d8ea00fc4f91d69e2af3b25bd, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 178634, guid: e103469d8ea00fc4f91d69e2af3b25bd, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
+      objectReference: {fileID: 0}
     - target: {fileID: 452798, guid: e103469d8ea00fc4f91d69e2af3b25bd, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -5070,6 +5086,10 @@ PrefabInstance:
     - target: {fileID: 151594, guid: b1be9ab4dc52dd44a8f311b237c90017, type: 3}
       propertyPath: m_Name
       value: Ball1
+      objectReference: {fileID: 0}
+    - target: {fileID: 151594, guid: b1be9ab4dc52dd44a8f311b237c90017, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
       objectReference: {fileID: 0}
     - target: {fileID: 470168, guid: b1be9ab4dc52dd44a8f311b237c90017, type: 3}
       propertyPath: m_RootOrder
@@ -7292,7 +7312,7 @@ GameObject:
   - component: {fileID: 712852286}
   m_Layer: 0
   m_Name: InteractableInventory
-  m_TagString: Untagged
+  m_TagString: InteractableObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9010,6 +9030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ball
       objectReference: {fileID: 0}
+    - target: {fileID: 125472, guid: 837a78335be42904f9b415b88559c571, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
+      objectReference: {fileID: 0}
     - target: {fileID: 497658, guid: 837a78335be42904f9b415b88559c571, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -9493,6 +9517,10 @@ PrefabInstance:
     - target: {fileID: 188320, guid: 24f5ed4d41e56be4492c9961cf726915, type: 3}
       propertyPath: m_Name
       value: Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 188320, guid: 24f5ed4d41e56be4492c9961cf726915, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
       objectReference: {fileID: 0}
     - target: {fileID: 494334, guid: 24f5ed4d41e56be4492c9961cf726915, type: 3}
       propertyPath: m_RootOrder
@@ -10825,6 +10853,54 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c967778ea7e9e94d9ba1295f3632188, type: 3}
+--- !u!1 &1089762447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1089762449}
+  - component: {fileID: 1089762448}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1089762448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089762447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980911aa763b52646b597c7f7cb71003, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rayFromCamera: {fileID: 1837824287}
+  _rayLength: 1.5
+  _playerHands: {fileID: 504122879}
+  _throwForce: 1000
+--- !u!4 &1089762449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089762447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.2, y: 8.42, z: 17.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1092800671
 GameObject:
   m_ObjectHideFlags: 0
@@ -12340,6 +12416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair
       objectReference: {fileID: 0}
+    - target: {fileID: 149524, guid: 1d6e1301f3125274fae37eac3b95800a, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
+      objectReference: {fileID: 0}
     - target: {fileID: 461416, guid: 1d6e1301f3125274fae37eac3b95800a, type: 3}
       propertyPath: m_RootOrder
       value: -1
@@ -12471,6 +12551,10 @@ PrefabInstance:
     - target: {fileID: 150822, guid: 344ba0258a4cb0246b023df1cc90ead8, type: 3}
       propertyPath: m_Name
       value: Hat
+      objectReference: {fileID: 0}
+    - target: {fileID: 150822, guid: 344ba0258a4cb0246b023df1cc90ead8, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
       objectReference: {fileID: 0}
     - target: {fileID: 456442, guid: 344ba0258a4cb0246b023df1cc90ead8, type: 3}
       propertyPath: m_RootOrder
@@ -13419,6 +13503,10 @@ PrefabInstance:
     - target: {fileID: 179668, guid: 74b429c4d161ce24ca919b070ba84eda, type: 3}
       propertyPath: m_Name
       value: Fresh cola
+      objectReference: {fileID: 0}
+    - target: {fileID: 179668, guid: 74b429c4d161ce24ca919b070ba84eda, type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
       objectReference: {fileID: 0}
     - target: {fileID: 422022, guid: 74b429c4d161ce24ca919b070ba84eda, type: 3}
       propertyPath: m_RootOrder
@@ -17630,10 +17718,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2637413596583197213, guid: cc33cd36e17217b4daef3b5cc0faca17,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2637413596583409879, guid: cc33cd36e17217b4daef3b5cc0faca17,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637413596583409879, guid: cc33cd36e17217b4daef3b5cc0faca17,
+        type: 3}
+      propertyPath: m_TagString
+      value: Door
       objectReference: {fileID: 0}
     - target: {fileID: 2637413596583448703, guid: cc33cd36e17217b4daef3b5cc0faca17,
         type: 3}
@@ -18776,6 +18874,7 @@ GameObject:
   - component: {fileID: 1837824285}
   - component: {fileID: 1837824284}
   - component: {fileID: 1837824286}
+  - component: {fileID: 1837824287}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -18813,6 +18912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5
+  _jumpForce: 100
 --- !u!143 &1837824285
 CharacterController:
   m_ObjectHideFlags: 0
@@ -18845,6 +18945,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _minY: -60
   _maxY: 60
+--- !u!114 &1837824287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837824282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 413b3a833c5479f4c90731796643c679, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1848767449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21443,6 +21555,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 2637413596583197213, guid: cc33cd36e17217b4daef3b5cc0faca17,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2637413596583409879, guid: cc33cd36e17217b4daef3b5cc0faca17,
+        type: 3}
+      propertyPath: m_TagString
+      value: Door
+      objectReference: {fileID: 0}
     - target: {fileID: 2637413596583459041, guid: cc33cd36e17217b4daef3b5cc0faca17,
         type: 3}
       propertyPath: m_RootOrder
@@ -21569,10 +21691,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -14.98
       objectReference: {fileID: 0}
+    - target: {fileID: 3737877290191464937, guid: c072b46f0e6680443ae4a4e1aa3a01dd,
+        type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
+      objectReference: {fileID: 0}
     - target: {fileID: 7694090434906794595, guid: c072b46f0e6680443ae4a4e1aa3a01dd,
         type: 3}
       propertyPath: m_Name
       value: Baseball bat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694090434906794595, guid: c072b46f0e6680443ae4a4e1aa3a01dd,
+        type: 3}
+      propertyPath: m_TagString
+      value: InteractableObject
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
